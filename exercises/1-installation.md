@@ -75,4 +75,6 @@ export SAUCE_ACCESS_KEY="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 
 </details>
 
-> **[Next Exercise](./2-assertions.md)**
+---
+
+**[Next Exercise :fast_forward:](./2-assertions.md)**

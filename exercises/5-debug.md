@@ -11,4 +11,4 @@
 </details>
 
 
-> **[Next Exercise](./6-cicd.md)**
+**[Next Exercise :fast_forward:](./6-cicd.md)**

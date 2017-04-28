@@ -68,4 +68,4 @@ it('should contain the correct url', function () {
 ```
 </details>
 
-> **[Next Exercise](./3-commands.md)**
+**[Next Exercise :fast_forward:](./3-commands.md)**
