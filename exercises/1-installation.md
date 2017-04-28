@@ -10,15 +10,15 @@
 
 ## Exercise
 
-[] Create sauce labs account (and c9 if preferred)
+- [ ] Create sauce labs account (and c9 if preferred)
 
-[] Clone wdio-workshop repo
+- [ ] Clone wdio-workshop repo
 
-[] Install webdriverio
+- [ ] Install webdriverio
 
-[] Set up webdriverio config
+- [ ] Set up webdriverio config
 
-[] Run pre-written tests via sauce labs and review results
+- [ ] Run pre-written tests via sauce labs and review results
 
 ## Hints
 
