@@ -3,8 +3,7 @@
 ## Links
 
 - [Selectors in WebdriverIO](http://webdriver.io/guide/usage/selectors.html)
-Click command
-- [Building and testing selectors](http://yizeng.me/2014/03/23/evaluate-and-validate-xpath-css-selectors-in-chrome-developer-tools/)
+- [Building and testing selectors via Chrome Dev Tools](http://yizeng.me/2014/03/23/evaluate-and-validate-xpath-css-selectors-in-chrome-developer-tools/)
 - [WebdriverIO Command API Page](http://webdriver.io/api.html)
 
 ## Exercise (click item for solution)
@@ -81,7 +80,8 @@ it('should allow you to purchase a robot', function () {
   <summary><b>Confirm the button text changes</b></summary>
 
 ```js
-expect(browser.getText('#buyNowButton')).to.equal('Purchasing...');
+var buttonText = browser.getText('#buyNowButton');
+expect(buttonText).to.equal('Purchasing...');
 ```
 </details>
 
