@@ -4,7 +4,7 @@
 
 - 
 
-## Exercise (click item for hint)
+## Exercise (click item for solution)
 
 <details>
   <summary><b></b></summary>
