@@ -1,4 +1,4 @@
-# Debug & Pause
+# CICD
 
 ## Links
 
@@ -10,5 +10,4 @@
   <summary><b></b></summary>
 </details>
 
-
-> **[Next Exercise](./6-cicd.md)**
+> **[Next Exercise](./7-next-steps.md)**

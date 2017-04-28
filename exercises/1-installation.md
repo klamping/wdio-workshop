@@ -8,27 +8,34 @@
 - [Storing cloud Selenium credentials in WebdriverIO (video)](https://www.youtube.com/watch?v=DiaFdOtUoo8)
 - [Sauce Labs Integration (video)](https://www.youtube.com/watch?v=suJGTIuPtlI&t=10m9s)
 
-## Exercise
+## Exercise (click item for hint)
 
-1. Create sauce labs account (and c9 if preferred)
-2. Clone wdio-workshop repo
-3. Install webdriverio
-4. Set up webdriverio config
-5. Run pre-written tests via sauce labs and review results
+<details>
+  <summary><b>Create sauce labs account (and Cloud 9 if preferred)</b></summary>
 
-## Hints
+- [Sauce Labs Free Trial](https://saucelabs.com/signup/trial)
+- [Cloud 9](https://c9.io)
 
-**Clone wdio-workshop repo:**
+</details>
 
-`git clone https://github.com/klamping/wdio-workshop.git`
+<details>
+  <summary><b>Clone wdio-workshop repo</b></summary>
 
-**Install WebdriverIO:**
+    git clone https://github.com/klamping/wdio-workshop.git
 
-`npm install --save-dev webdriverio`
+</details>
 
-**WebdriverIO Command:**
+<details>
+  <summary><b>Install webdriverio</b></summary>
 
-`./node_modules/.bin/wdio`
+    npm install --save-dev webdriverio
+
+</details>
+
+<details>
+  <summary><b>Set up webdriverio config</b></summary>
+
+    ./node_modules/.bin/wdio
 
 **Config Responses:**
 
@@ -44,11 +51,28 @@
 - Shall I install the services for you? **Yes**
 - Level of logging verbosity **silent**
 - In which directory should screenshots gets saved if a command fails? **./errorShots/**
-- What is the base url? **http://kevinlamping.com/webdriverio-course-content**
+- What is the base url? **http://kevinlamping.com/webdriverio-course-content**  
 
-**Environment Variables**
+</details>
 
+<details>
+  <summary><b>Add Sauce Labs credentials to environment variables</b></summary>
+
+- [Sauce Labs access key](https://saucelabs.com/beta/user-settings)
+
+In `.bashrc` file:
 ```
 export SAUCE_USERNAME="username"
 export SAUCE_ACCESS_KEY="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 ```
+
+</details>
+
+<details>
+  <summary><b>Run pre-written tests via sauce labs and review results</b></summary>
+
+    ./node_modules/.bin/wdio
+
+</details>
+
+> **[Next Exercise](./2-assertions.md)**
