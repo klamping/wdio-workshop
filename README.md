@@ -6,7 +6,9 @@ Instead of struggling through :coffee:Java:coffee:, what if you could just use :
 
 WebdriverIO makes automated testing friendly by providing a NodeJS interface for Selenium-based testing :100:
 
-This workshop will dive deep in to [WebdriverIO](http://webdriver.io), an open-source library used for Selenium testing. We’ll cover all the steps to get started writing automated browser tests, including:
+This workshop will dive deep in to [WebdriverIO](http://webdriver.io), an open-source library used for Selenium testing. :cool:
+
+We'll cover all the steps to get started writing automated browser tests, including:
 
 1. [Installation and Setup](./exercises/1-installation.md)
 2. [Mocha, Chai and Assertions](./exercises/2-assertions.md)

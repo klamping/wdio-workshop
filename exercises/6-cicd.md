@@ -10,4 +10,6 @@
   <summary><b></b></summary>
 </details>
 
-**[Next Exercise :fast_forward:](./7-next-steps.md)**
+---
+
+**[Next Exercise](./7-next-steps.md)** :fast_forward:

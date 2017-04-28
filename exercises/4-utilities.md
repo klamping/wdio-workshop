@@ -10,4 +10,7 @@
   <summary><b></b></summary>
 </details>
 
-**[Next Exercise :fast_forward:](./5-debug.md)**
+
+---
+
+**[Next Exercise](./5-debug.md)** :fast_forward:

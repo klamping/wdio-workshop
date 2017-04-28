@@ -10,5 +10,6 @@
   <summary><b></b></summary>
 </details>
 
+---
 
-**[Next Exercise :fast_forward:](./6-cicd.md)**
+**[Next Exercise](./6-cicd.md)** :fast_forward:
