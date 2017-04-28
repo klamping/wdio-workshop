@@ -27,13 +27,14 @@ We'll cover all the steps to get started writing automated browser tests, includ
 
 ## :construction_worker: Pre-requisites :construction_worker:
 
-This workshop targets folks who have the following skill levels (or above):
+This workshop targets folks with the following experience levels (or above):
 
-- Node.js - Basic
-- Javascript - Intermediate
-- Command line - Basic
+- [Node.js](https://github.com/maxogden/art-of-node#the-art-of-node) - Basic
+- [Javascript](https://www.codecademy.com/learn/javascript) - Intermediate
+- [Command line](https://commandlinepoweruser.com/) - Basic
 
 ## :godmode: Further Learning :godmode:
 
 - ["Learn WebdriverIO" Video Course](http://learn.webdriver.io)
 - [Jumpstarting Selenium Testing in Your Organization with Javascript, WebdriverIO & Cucumber](https://www.youtube.com/watch?v=Ua_vGRPnAtM)
+- [WebdriverIO Examples](https://github.com/webdriverio/webdriverio/tree/master/examples)

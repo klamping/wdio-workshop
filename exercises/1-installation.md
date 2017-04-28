@@ -8,7 +8,7 @@
 - [Storing cloud Selenium credentials in WebdriverIO (video)](https://www.youtube.com/watch?v=DiaFdOtUoo8)
 - [Sauce Labs Integration (video)](https://www.youtube.com/watch?v=suJGTIuPtlI&t=10m9s)
 
-## Exercise (click item for hint)
+## Exercise (click item for solution)
 
 <details>
   <summary><b>Create sauce labs account (and Cloud 9 if preferred)</b></summary>

@@ -6,7 +6,7 @@
 - [Chai](http://chaijs.com/)
 - [Chai BDD API](http://chaijs.com/api/bdd/)
 
-## Exercise (click item for hint)
+## Exercise (click item for solution)
 
 <details>
   <summary><b>Rename existing describe/it blocks</b></summary><p>
