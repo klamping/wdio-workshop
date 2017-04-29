@@ -5,13 +5,15 @@
 - [Mocha](https://mochajs.org/)
 - [Chai](http://chaijs.com/)
 - [Chai BDD API](http://chaijs.com/api/bdd/)
+- [Take a Drive with WebdriverIO and Mocha](http://blog.kevinlamping.com/take-a-drive-with-webdriverio-and-mocha/)
+- [Mocha Usage Tips](http://blog.kevinlamping.com/mocha-usage-tips/)
 
 ## Exercise (click item for solution)
 
 <details>
   <summary><b>Rename existing describe/it blocks</b></summary><p>
 
-  ```
+```js
     describe('Homepage', function () {
         it('should have the correct title', function () {
 

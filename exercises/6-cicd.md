@@ -2,7 +2,7 @@
 
 ## Links
 
-- 
+- [Jenkins Integration (video)](https://www.youtube.com/watch?v=wqwWAWixqcM)
 
 ## Exercise (click item for solution)
 

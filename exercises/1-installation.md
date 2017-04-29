@@ -61,7 +61,8 @@
 - [Sauce Labs access key](https://saucelabs.com/beta/user-settings)
 
 In `.bashrc` file:
-```
+
+```sh
 export SAUCE_USERNAME="username"
 export SAUCE_ACCESS_KEY="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 ```

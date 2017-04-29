@@ -3,7 +3,11 @@
 ## Links
 
 - [Elements as First Citizen](http://webdriver.io/api.html#Element-as-first-citizen)
+- [$ & $$ Commands (video)](https://www.youtube.com/watch?v=k6FFwurWhf0&t=2m25s)
+- [Element State Commands (video)](https://www.youtube.com/watch?v=wKfBWz0QyHI)
 - [Page Object Pattern](http://webdriver.io/guide/testrunner/pageobjects.html)  (optional)
+- [Page Objects (video)](https://www.youtube.com/watch?v=dxXBykTF5HY) (optional)
+- [Yet another Page Objects video](https://www.youtube.com/watch?v=4_ZIaWhQ6Uk) (optional)
 
 ## Exercise (click item for solution)
 
