@@ -22,7 +22,7 @@ it('should have a product page call-to-action', function () {
   <summary><b>Use `click` to click the button and navigate to the product page</b></summary>
 
 ```js
-it('should link to the product page', function () {
+it('should have a product page call-to-action', function () {
     browser.click('button=See our Vast Robot Selection');
 })
 ```
@@ -65,13 +65,13 @@ it('should allow you to purchase a robot', function () {
 </details>
 
 <details>
-  <summary><b>Use `url`, `setValue` and `submitForm` to buy a robot</b></summary>
+  <summary><b>Use `url`, `setValue` and `click` to buy a robot</b></summary>
 
 ```js
 it('should allow you to purchase a robot', function () {
     browser.setValue('#qty', '5');
 
-    browser.submitForm('#qty');
+    browser.click('#buyNowButton');
 })
 ```
 </details>

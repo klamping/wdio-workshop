@@ -16,16 +16,21 @@
   <summary><b>Replace existing `browser.click` commands (and similar commands) with the `$` utility</b></summary>
 
 ```js
-var shopCTA = $('button=See our Vast Robot Selection');
+var shopCTA = $('a=See our Vast Robot Selection');
 shopCTA.click();
 ```
 
 ```js
-var cartQty = $('#qty');
+it('should allow you to purchase a robot', function () {\
+    $('#qty').setValue(5);
 
-cartQty.setValue(5);
+    var cartBtn = $('#buyNowButton');
 
-cartQty.submitForm();
+    cartBtn.click();
+
+    var buttonText = cartBtn.getText();
+    expect(buttonText).to.equal('Purchasing...');
+})
 ```
 </details>
 
@@ -53,17 +58,18 @@ cartQty.submitForm();
 ```js 
 it('should show a success message with correct order', function () {
     var cartQty = $('#qty');
+    var cartBtn = $('#buyNowButton');
 
     cartQty.setValue(5);
 
-    cartQty.submitForm();
+    cartBtn.click();
 
     var confirmationMsg = $('.callout*=Thank you human');
 
     confirmationMsg.waitForExist();
 
-    // verify is has proper qty and type
-    var confirmationText = confirmationMsg.getText();
+    // verify it has proper qty and type
+    var confirmationText = browser.getText('.callout*=Thank you human');
     expect(confirmationText).to.contain("5 T-800 Model 101");
 })
 ```
@@ -76,10 +82,11 @@ it('should show a success message with correct order', function () {
 ```js 
 it('should hide thank you message after clicking close button', function () {
     var cartQty = $('#qty');
+    var cartBtn = $('#buyNowButton');
 
     cartQty.setValue(5);
 
-    cartQty.submitForm();
+    cartBtn.click();
 
     var confirmationMsg = $('.callout*=Thank you human');
 
