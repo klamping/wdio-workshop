@@ -19,7 +19,7 @@
 it('should rotate the banner image after four seconds', function () {
     this.timeout(15000);
 
-    browser.url('/');
+    browser.url('');
 
     var firstActiveImage = $('.orbit-container .is-active');
 
