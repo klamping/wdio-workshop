@@ -22,7 +22,7 @@
 <details>
   <summary><b>Clone wdio-workshop repo</b></summary>
 
-    git clone https://github.com/klamping/wdio-workshop.git
+    https://github.com/klamping/wdio-workshop.git
 
 </details>
 
@@ -45,7 +45,7 @@
 - Environment variable for access key **SAUCE_ACCESS_KEY**
 - Which framework do you want to use? **mocha**
 - Shall I install the framework adapter for you? **Yes**
-- Where are your test specs located? **./test/**/*.js**
+- Where are your test specs located? **./test/\*\*/*.js**
 - Which reporter do you want to use?  **spec - https://github.com/webdriverio/wdio-spec-reporter**
 - Shall I install the reporter library for you? **Yes**
 - Do you want to add a service to your test setup?  **sauce - https://github.com/webdriverio/wdio-sauce-service**

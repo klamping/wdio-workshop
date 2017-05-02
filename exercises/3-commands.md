@@ -23,7 +23,7 @@ it('should have a product page call-to-action', function () {
 
 ```js
 it('should have a product page call-to-action', function () {
-    browser.click('button=See our Vast Robot Selection');
+    browser.click('a=See our Vast Robot Selection');
 })
 ```
 </details>
@@ -65,7 +65,7 @@ it('should allow you to purchase a robot', function () {
 </details>
 
 <details>
-  <summary><b>Use `url`, `setValue` and `click` to buy a robot</b></summary>
+  <summary><b>Use `setValue` and `click` to buy a robot</b></summary>
 
 ```js
 it('should allow you to purchase a robot', function () {
