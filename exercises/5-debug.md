@@ -48,4 +48,4 @@ When running `wdio` test command:
 
 ---
 
-**[Next Exercise](./6-cicd.md)** :fast_forward:
+**[Next Exercise](./6-next-steps.md)** :fast_forward:

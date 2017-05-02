@@ -8,6 +8,7 @@
 - [Storing cloud Selenium credentials in WebdriverIO (video)](https://www.youtube.com/watch?v=DiaFdOtUoo8)
 - [Sauce Labs Integration (video)](https://www.youtube.com/watch?v=suJGTIuPtlI&t=10m9s)
 
+
 ## Exercise (click item for solution)
 
 <details>
@@ -51,7 +52,7 @@
 - Shall I install the services for you? **Yes**
 - Level of logging verbosity **silent**
 - In which directory should screenshots gets saved if a command fails? **./errorShots/**
-- What is the base url? **http://kevinlamping.com/webdriverio-course-content**  
+- What is the base url? **http://kevinlamping.com/webdriverio-course-content/** 
 
 </details>
 
@@ -75,6 +76,26 @@ export SAUCE_ACCESS_KEY="XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
     ./node_modules/.bin/wdio
 
 </details>
+
+---
+
+## Timeout of 10000ms exceeded
+
+If you're running in to issues with an error message of 'Timeout of 10000ms exceeded.', increase the test timeout setting by opening your `wdio.conf.js` file, navigating to the `mochaOpts` object, and adding `timeout: 30000` to it. 
+
+For example:
+
+```js
+// wdio.conf.js
+exports.config = {
+    // ...
+    mochaOpts: {
+        ui: 'bdd',
+        timeout: 30000
+    },
+    // ...
+}
+```
 
 ---
 

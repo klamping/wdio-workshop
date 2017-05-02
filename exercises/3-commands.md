@@ -23,8 +23,6 @@ it('should have a product page call-to-action', function () {
 
 ```js
 it('should link to the product page', function () {
-    browser.url('/');
-
     browser.click('button=See our Vast Robot Selection');
 })
 ```
@@ -43,11 +41,15 @@ expect(url).to.contain('product-page.html');
 ---
 
 <details>
-  <summary><b>Create a new file to validate the product page</b></summary>
+  <summary><b>Create a new file to validate the product page, including the proper `describe` and `beforeEach` functions.</b></summary>
 
 ```js
-describe('Product Page', function () {
+var expect = require('chai').expect;
 
+describe('Product Page', function () {
+    beforeEach(function () {
+        browser.url('product-page.html');
+    })
 })
 ```
 </details>
@@ -67,8 +69,6 @@ it('should allow you to purchase a robot', function () {
 
 ```js
 it('should allow you to purchase a robot', function () {
-    browser.url('/product-page.html');
-
     browser.setValue('#qty', '5');
 
     browser.submitForm('#qty');
@@ -77,7 +77,7 @@ it('should allow you to purchase a robot', function () {
 </details>
  
 <details>
-  <summary><b>Confirm the button text changes</b></summary>
+  <summary><b>Confirm the button text changes using `getText`</b></summary>
 
 ```js
 var buttonText = browser.getText('#buyNowButton');

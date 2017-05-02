@@ -47,6 +47,19 @@ expect(title).to.equal('Robot Parts Emporium')
 </details>
 
 <details>
+  <summary><b>Move `browser.url` to the `beforeEach` function</b></summary>
+
+```js
+beforeEach(function () {
+    browser.url('');
+})
+
+// be sure to remove from the original test
+```
+
+</details>
+
+<details>
   <summary><b>Add new 'it' block</b></summary>
 
 ```js
@@ -62,8 +75,6 @@ it('should contain the correct url', function () {
 
 ```js
 it('should contain the correct url', function () {
-    browser.url('/');
-
     var url = browser.getUrl();
     expect(url).to.contain('/webdriverio-course-content/');
 })
