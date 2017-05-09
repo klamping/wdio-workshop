@@ -15,8 +15,7 @@ We'll cover all the steps to get started writing automated browser tests, includ
 3. [Common Commands](./exercises/3-commands.md)
 4. [Utility Commands](./exercises/4-utilities.md)
 5. [Pause and Debug](./exercises/5-debug.md)
-6. [CICD Integration](./exercises/6-cicd.md)
-7. [Next Steps](./exercises/7-next-steps.md)
+7. [Next Steps](./exercises/6-next-steps.md)
 
 ## :ok_hand: Learning Outcomes :ok_hand:
 
