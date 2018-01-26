@@ -2,7 +2,7 @@
 
 ## Links
 
-- [Elements as First Citizen](http://webdriver.io/api.html#Element-as-first-citizen)
+- [Elements as First Class Citizen](http://webdriver.io/api.html#Element-as-first-class-citizen)
 - [$ & $$ Commands (video)](https://www.youtube.com/watch?v=k6FFwurWhf0&t=2m25s)
 - [Element State Commands (video)](https://www.youtube.com/watch?v=wKfBWz0QyHI)
 - [Page Object Pattern](http://webdriver.io/guide/testrunner/pageobjects.html)  (optional)
